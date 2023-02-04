@@ -1,0 +1,6 @@
+x <- read.csv("ash.csv")
+print(X)
+max20 <-subset (x,salary>20000)
+print(max20)
+max20 <-subset (x,salary>=20000)
+print(max20)
